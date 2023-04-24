@@ -46,16 +46,16 @@
 .todo__list,
 .completed__list {
 
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .todo__item, .completed__item {
-  list-style:none;
+  list-style: none;
 }
 
 .btn {
-  outline:none;
+  outline: none;
 }
 
 .btn {
@@ -169,14 +169,14 @@
 
 .todo__input,
 .completed__input {
-  display:none
+  display: none
 }
 
 .todo__item_edit .todo__input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .todo__item_edit .todo__label {
-  display:none;
+  display: none;
 }
