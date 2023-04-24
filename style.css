@@ -36,7 +36,7 @@
 .input__text,.todo__label,.completed__label {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .task__wrapper {
@@ -145,7 +145,7 @@
 }
 
 .todo__input,.completed__input {
-  width: 226px
+  width: 226px;
 }
 
 .btn_delete .btn__image {
@@ -169,12 +169,12 @@
 
 .todo__input,
 .completed__input {
-  display: none
+  display: none;
 }
 
 .todo__item_edit .todo__input {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .todo__item_edit .todo__label {
