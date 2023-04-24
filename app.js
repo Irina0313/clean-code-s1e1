@@ -134,7 +134,6 @@ var taskCompleted=function(){
   bindTaskEvents(listItem, taskIncomplete);
 
   let completedLabel = listItem.querySelector('label');
-  completedLabel.classList.remove("todo__label");
   completedLabel.classList.add("completed__label");
 }
 
@@ -150,7 +149,6 @@ var taskIncomplete=function(){
 
    let incompletedLabel = listItem.querySelector('label');
   incompletedLabel.classList.remove("completed__label");
-  incompletedLabel.classList.add("todo__label");
 }
 
 
